@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/auth"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginStart="@dimen/common_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_input"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_marginStart="@dimen/common_spacing"
+        android:layout_marginEnd="@dimen/common_spacing"
+        android:layout_marginBottom="@dimen/common_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text"/>
+
+    <TextView
+        android:layout_marginStart="@dimen/common_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password_input"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginStart="@dimen/common_spacing"
+        android:layout_marginEnd="@dimen/common_spacing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_marginTop="@dimen/common_spacing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"/>
+
+
+
+
+</LinearLayout>
